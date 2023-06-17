@@ -2,7 +2,9 @@ import React from 'react'
 import "./nav.css"
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <nav>
+      <a href='#'></a>
+    </nav>
   )
 }
 

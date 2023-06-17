@@ -47,7 +47,7 @@ header {
 
 /* ================ ME ================== */
 
-.me {
+.hp {
   background: linear-gradient(var(--color-primary),transparent);
   width: 22rem;
   height: 30rem;
@@ -69,4 +69,29 @@ header {
     bottom: 5rem;
     transform: rotate(90deg);
     font-size: 0.9rem;
+}
+
+/* ===============MEDIA QUERIES (Medium devices)================== */
+
+
+ @media screen and (max-width: 1024px){
+    header {
+        height: 60vh;
+    }
+}
+
+
+
+/* ===============MEDIA QUERIES (SMALL devices)================== */
+
+
+@media screen and (max-width: 600px){
+    header {
+        height: 100vh;
+    }
+
+    .header__socials, .scroll__down{
+        display: none;
+    }
+
 }

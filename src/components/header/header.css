@@ -48,15 +48,17 @@ header {
 /* ================ ME ================== */
 
 .hp {
-  background: linear-gradient(var(--color-primary),transparent);
-  width: 22rem;
-  height: 30rem;
+  /* background: linear-gradient(var(--color-primary),transparent); */
+  width: 32rem;
+  height: 40rem;
   position: relative;
-  left: calc(50% - 11rem);
-  margin-top:  4rem;
-  border-radius:  12rem 12rem 0 0;
+  left: calc(50% - 17rem);
+  margin-top:  5rem;
+  border-radius:  25rem 25rem 0rem 0rem;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;  
+  
+
 }
 
 

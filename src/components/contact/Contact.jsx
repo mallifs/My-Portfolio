@@ -1,7 +1,7 @@
 import React from 'react'
 import "./contact.css"
 import {AiOutlineMail} from 'react-icons/ai'
-import {BsMessenger} from 'react-icons/bs'
+import { FaXTwitter } from "react-icons/fa6";
 import {SiWhatsapp} from 'react-icons/si'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
@@ -26,23 +26,22 @@ const Contact = () => {
             <article className="contact__option">
               <AiOutlineMail className='contact__option-icon'/>
               <h4>Email</h4>
-              <h5>Mallifssupport@gmail.com</h5>
-              <a href="mailto:Mallifssupport@gmail.com" target='_blank'>Send a message</a>
+              {/* <h5>Simintei's support</h5> */}
+              <a href="mailto:l02511138@gmail.com" target='_blank'  rel="noopener noreferrer">Send a message</a>
             </article>
 
             <article className="contact__option">
-              <BsMessenger className='conatact__option-icon'/>
-              <h4>Facebook</h4>
-              <h5>Messanger</h5>
-              <a href="https://m.me/mallifs" target='_blank'>Send a message</a>
+               <FaXTwitter  className='conatact__option-icon'/>
+              <h4>X</h4>
+              <a href="https://x.com/sleon_?s=21" target='_blank' rel="noopener noreferrer">Send a message</a>
             </article>
 
 
             <article className="contact__option">
               <SiWhatsapp className='contact__option-icon'/>
               <h4>Whatsapp</h4>
-              <h5>App Me</h5>
-              <a href="https://api.whatsapp.com/send?phone+254729692856 " target='_blank'>Send a message</a>
+              {/* <h5>App Me</h5> */}
+              <a href="https://api.whatsapp.com/send?phone+ " target='_blank' rel="noopener noreferrer">Send a message</a>
             </article>
         </div>
 
